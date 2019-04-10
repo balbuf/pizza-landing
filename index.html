@@ -4,107 +4,235 @@
     <title>Stephen Beemsterboer - Pizza Enthusiast</title>
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
         body {
-            text-align: center;
             font-family: 'Raleway', sans-serif;
+            font-size: 1.5em;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        h2 {
+            text-align: center;
         }
 
         .logo {
-            display: block;
             max-width: 450px;
             width: 100%;
-            margin: 1em auto;
-            filter: drop-shadow(4px 4px 4px grey);
-            background: white;
-        }
-
-        .links {
-            font-size: 1.8em;
-        }
-
-        .projects {
-            display: flex;
-            flex-direction: row;
-            align-items: stretch;
-            flex-wrap: wrap;
-            max-width: 800px;
             margin: 0 auto;
         }
 
-        .project {
-            border: 1px solid #d40000;
-            border-radius: 15px;
-            padding: 1em;
-            margin: 1em;
-            flex-grow: 1;
+        .logo img {
+            background: white;
+            width: 100%;
+        }
+
+        .links {
+            font-size: 2.2em;
+            text-align: center;
+        }
+
+        .website .url {
+            display: none;
+        }
+
+        .fa-globe-americas {
+            color: 	#0057be; /*#0067be;*/
         }
 
         .fa-facebook, .fa-facebook-square {
-            color: #3b5998
+            color: #3b5998;
         }
 
         .fa-twitter, .fa-twitter-square {
-            color: #00aced
+            color: #00aced;
         }
 
         .fa-youtube, .fa-youtube-play, .fa-youtube-square {
-            color: #bb0000
+            color: #bb0000;
         }
 
         .fa-pinterest, .fa-pinterest-square {
-            color: #cb2027
+            color: #cb2027;
         }
 
         .fa-linkedin, .fa-linkedin-square {
-            color: #007bb6
+            color: #007bb6;
         }
 
         .fa-instagram {
-            color: #C13584;
+            color: #8941a7; /*#C13584;*/
         }
 
-        .fa-spotify {
-            color: #1ED760;
+        .fa-envelope, .fa-envelope-square {
+            color: #c71610; /*#666;*/
         }
 
-        .fa-envelope {
-            color: #666;
+        .fa-phone, .fa-phone-square {
+            color: #0067be;
         }
 
-        .fa-phone {
-            color: #000;
+        .menu {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+
+        .menu-section {
+            margin-top: 1.5em;
+        }
+
+        .menu-section h3 {
+            margin: 0.2em 0;
+            border-bottom: 0.75px solid #333;
+            padding-bottom: 0.25em;
+            font-weight: bold;
+        }
+
+        .menu-section .description {
+            font-style: italic;
+            margin: 0.5em 0;
+        }
+
+        .menu-section ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-section ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 1.25em;
+        }
+
+        .menu-section ul li::before {
+            flex: 1 1 auto;
+            content: '';
+            order: 1;
+            margin: 0 0.25em;
+            border-bottom: 4px dotted #333;
+            height: 1em;
+        }
+
+        .menu-section ul li a {
+            flex: 0 0 auto;
+            order: 2;
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.5em;
+        }
+
+        a .handle {
+            display: none;
+        }
+
+        .menu-section ul li a:hover {
+            color: #d40000;
+        }
+
+        .menu-section ul li a i {
+            margin-right: .2em;
+        }
+
+        .title {
+            font-size: 0.6em;
+            font-style: italic;
+        }
+
+        a:hover i {
+            opacity: 0.8;
+        }
+
+        @media (min-width: 500px) {
+            body {
+                font-size: initial;
+            }
+
+            .logo {
+                margin-top: 2em;
+            }
+
+            .logo img {
+                filter: drop-shadow(4px 4px 4px grey);
+            }
+
+            .menu {
+                border: 1px solid #333;
+                margin: 2em auto 0 auto;
+            }
+
+            a .handle {
+                display: inline;
+            }
+
+            .website i {
+                display: none;
+            }
+
+            .website .url {
+                display: inline;
+            }
+
+            .menu-section ul li {
+                font-size: initial;
+            }
+
+            .menu-section ul li::before {
+                border-bottom-width: 2px;
+            }
+
+            .menu-section ul li a {
+                font-size: initial;
+            }
+
+            .menu {
+                margin-bottom: 2em;
+            }
         }
     </style>
 </head>
 <body>
-    <img class="logo" src="pizza-box-front.svg" alt="Front of a pizza box with Stephen dressed as a chef.">
-    <h1>Stephen Beemsterboer</h1>
-    <div class="main-contact">
-        <div class="title">Pizza Enthusiast</div>
+    <div class="logo">
+        <img src="pizza-box-front.svg" alt="Front of a pizza box with Stephen dressed as a chef.">
+    </div>
+
+    <div class="menu">
+        <h1>Stephen Beemsterboer <span class="title">Pizza Enthusiast</span></h1>
+
+        <p class="greeting">Hi, nice to meet you! Learn more about my pizza-related projects from the menu below, or contact me directly:</p>
+
         <div class="links">
-            <a href="#" data-href="bWFpbHRvOmJhbGJ1ZkBnbWFpbC5jb20=" title="Email Address" class="js-masked"><i class="far fa-envelope"></i></a>
-            <a href="#" data-href="dGVsOjc3MzgyNDY4NDM=" title="Phone Number" class="js-masked"><i class="fas fa-phone"></i></a>
+            <a href="#" data-href="bWFpbHRvOmJhbGJ1ZkBnbWFpbC5jb20=" title="Email Address" class="js-masked"><i class="fas fa-envelope-square"></i></a>
+            <a href="#" data-href="dGVsOjc3MzgyNDY4NDM=" title="Phone Number" class="js-masked"><i class="fas fa-phone-square"></i></a>
             <a href="https://www.instagram.com/balbuf/" title="Personal Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/balbuf" title="Personal Facebook"><i class="fab fa-facebook"></i></a>
         </div>
+
+        <h2>- Menu -</h2>
+        <div class="menu-section">
+            <h3>Encyclopizzeria</h3>
+            <p class="description">A compendium of Chicago pizza and beyond.</p>
+            <ul class="menu-selection">
+                <li>Website <a href="http://encyclopizzeria.com" class="website"><i class="fas fa-globe-americas"></i><span class="url">encyclopizzeria.com</span></a></li>
+                <li>Twitter <a href="https://twitter.com/encyclopizzeria" title="Twitter"><i class="fab fa-twitter"></i><span class="handle">/encyclopizzeria</span></a></li>
+                <li>Instagram <a href="https://www.instagram.com/encyclopizzeria/" title="Instagram"><i class="fab fa-instagram"></i><span class="handle">/encyclopizzeria</span></a></li>
+                <li>Facebook <a href="https://www.facebook.com/encyclopizzeria" title="Facebook"><i class="fab fa-facebook"></i><span class="handle">/encyclopizzeria</span></a></li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+                <h3>Chicago Pizza Book</h3>
+                <p class="description">A comprehensive look at the history and development of the Chicago pizza scene. More details coming soon!</p>
+            </div>
     </div>
 
-    <h2>Pizza Projects</h2>
-    <div class="projects">
-        <div class="project">
-            <h3>Encyclopizzeria</h3>
-            <a href="http://encyclopizzeria.com">encyclopizzeria.com</a>
-            <div class="links">
-                <a href="https://twitter.com/encyclopizzeria" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/encyclopizzeria/" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/encyclopizzeria" title="Facebook"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-    </div>
     <script>
         (function () {
-            // unmask and masked links
+            // unmask masked links
             var unmask = function() {
                 document.querySelectorAll('.js-masked').forEach(function (element) {
                     element.href = atob(element.getAttribute('data-href'));
