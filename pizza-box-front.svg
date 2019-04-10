@@ -23,12 +23,32 @@
         <path id="path9608" d="M.7 989.8c12.8.3 1.4 25.3-2.7 32.5-9-10.6 9.6-26 2.7-32.5z"/>
       </g>
     </g>
-    <text style="line-height:125%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:start" id="text11261" y="919.5" x="21.2" font-weight="900" font-size="40" font-family="Lithos Pro" letter-spacing="0" word-spacing="0" fill="#d40000">
-      <tspan id="tspan11263" x="21.2" y="919.5">PIZZA</tspan>
-    </text>
-    <text style="line-height:100%;text-align:center" x="122.6" y="1034" id="text11265" transform="scale(1.0245 .9761)" font-weight="400" font-size="25.1" font-family="sans-serif" letter-spacing="0" word-spacing="0" text-anchor="middle" fill="green">
-      <tspan id="tspan11267" x="122.6" y="1034" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" font-weight="900" font-size="11.8" font-family="Lithos Pro">FRESH</tspan><tspan x="122.6" y="1045.8" id="tspan11269" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" font-weight="900" font-size="11.8" font-family="Lithos Pro">HOT</tspan><tspan x="122.6" y="1057.5" id="tspan11271" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" font-weight="900" font-size="11.8" font-family="Lithos Pro">DELICIOUS</tspan>
-    </text>
+    <g style="line-height:125%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:start" id="text11261" font-weight="900" font-size="40" font-family="Lithos Pro" letter-spacing="0" word-spacing="0" fill="#d40000">
+      <path d="M34.3 919.5v-7c9.6-1.7 14.5-7.3 14.5-12.5 0-4.5-3.5-6.9-7.5-7.9-3.4-.8-8.2-1-15.9-1l.1 9.8v18.6h8.8zm0-22.8c4.2.3 5.4 2.2 5.4 4.4 0 3.3-3.1 5.3-5.4 5.7v-10z" id="path4199"/>
+      <path d="M63 903.1l.2-12H54l.1 12v16.4h9.2l-.2-12V903z" id="path4201"/>
+      <path d="M70.2 897.4l11.6.3-13.2 21.4.2.4 25.1.4.2-7.3c-1.1.2-10 .3-12.4.3l13-21.1-.2-.4c-2-.2-22.4-.8-24.2-1l-.1 7z" id="path4203"/>
+      <path d="M99.2 897.4l11.6.3-13.2 21.4.2.4 25.1.4.2-7.3c-1.1.2-10 .3-12.4.3l13-21.1-.2-.4c-2-.2-22.4-.8-24.2-1l-.1 7z" id="path4205"/>
+      <path d="M132.9 920.8l2.6-5.6 12-.6c.5.6 2.5 4.2 3.7 6.2l7.9-4.7c-1.7-2.3-12.5-19.2-17.3-26.5h-.4l-16.1 27 7.6 4.2zm5.2-11.5c1-2.2 2.4-5.2 3.4-7l3.3 6.7-6.7.3z" id="path4207"/>
+    </g>
+    <g transform="scale(1.0245 .9761)" style="line-height:100%;text-align:center" id="text11265" font-weight="900" font-size="11.8" font-family="Lithos Pro" letter-spacing="0" word-spacing="0" text-anchor="middle" fill="green">
+      <path d="M106 1034v-3h2.4v-1.8H106v-1.7h2.6v-2l-5.2.2v8.3h2.6z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4210"/>
+      <path d="M113 1027.3c1.3 0 1.7.5 1.7 1 0 .9-.8 1.5-1.3 1.8.3.5 2.6 3.8 2.8 4.3l2.2-1.6-2.5-2.6c1-.7 1.5-1.4 1.5-2.4s-.9-1.8-2.6-2l-4.3-.1v8.3h2.6v-6.7z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4212"/>
+      <path d="M124.8 1032.1h-2.6v-1.4h2.1v-1.8l-2.1.1v-1.6h2.5v-2l-5.1.3v8.3l5.3.1v-2z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4214"/>
+      <path d="M126.8 1034.2c3.5-.4 4.9-2 4.9-3.3 0-1-1-1.6-1.7-2-.7-.3-1-.5-1-.8 0-.4.6-.7 2.1-.7l-.3-2c-3 .3-4.7 1.7-4.7 3 0 1 .8 1.6 1.6 2 1 .6 1.1.7 1.1 1 0 .5-1.2.8-2.4.8l.4 2z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4216"/>
+      <path d="M136 1034V1030.8l3-.2v3.4h2.8v-4.5-3.8H139v2.9l-3 .2v-.4-2.7h-2.7v8.3h2.8z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4218"/>
+      <path d="M112 1045.8l-.1-2.8v-.4l3-.2v3.4h2.8v-4.5-3.9h-2.8v3l-3 .2v-.5-2.7h-2.7v8.4h2.7z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4220"/>
+      <path d="M123.8 1046c4 0 5.1-2.8 5.1-4.6 0-2.6-1.7-4.2-4.5-4.2-3.5 0-5.1 2.5-5.1 4.7 0 2 1.4 4 4.5 4zm.1-1.9c-1 0-1.8-.8-1.8-2.3 0-1.5.8-2.7 2.1-2.7 1.2 0 1.9.8 1.8 2.4 0 1.7-.8 2.6-2 2.6z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4222"/>
+      <path d="M134.6 1045.8v-6.4l2.6.1v-2h-7.9v2h2.6v6.3h2.7z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4224"/>
+      <path d="M89.4 1053.8v3.8c3.8 0 8.2-1.5 8.2-5.2 0-1-.6-2.6-3.7-3l-4.5-.2v4.6zm2.6-2.7c1.4 0 2.8.3 2.8 1.7 0 1.6-1.6 2.5-2.8 2.7v-4.4z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4226"/>
+      <path d="M104.5 1055.6h-2.7v-1.3h2.2v-1.9l-2.2.1v-1.5h2.5v-2l-5 .2v8.4h5.2v-2z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4228"/>
+      <path d="M106.5 1049.2v8.3l5.3.2v-2.2h-2.6v-2.1-4.2h-2.7z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4230"/>
+      <path d="M116 1052.7l.1-3.5h-2.7v8.3h2.7v-4.8z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4232"/>
+      <path d="M124.2 1055.5h-1.1c-1.6 0-2.5-.7-2.5-1.6 0-1.1 1-2.2 3.4-2.6l-.5-2.3c-4 .9-5.8 3.2-5.8 5.2 0 1.6 1.4 3.5 5.3 3.5h1.4l-.2-2.2z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4234"/>
+      <path d="M128.8 1052.7v-3.5h-2.7v8.3h2.7v-4.8z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4236"/>
+      <path d="M135 1057.7c4 0 5.1-2.8 5.1-4.6 0-2.5-1.8-4-4.6-4-3.4 0-5 2.3-5 4.6 0 1.9 1.3 4 4.5 4zm.1-1.8c-1 0-1.8-.8-1.8-2.4 0-1.4.8-2.7 2-2.7s2 1 2 2.4c0 1.8-1 2.7-2.2 2.7z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4238"/>
+      <path d="M144 1051.3l.2-2h-2.8v2.4c0 2.8.2 3.7.8 4.6.9 1.3 2.3 1.4 3.3 1.4a4 4 0 0 0 3.1-1.3c1-1 1-2.4 1-4.7v-.5-2.1H147v2.5c0 2.7 0 3.1-.3 3.6-.3.4-.7.6-1 .6-.4 0-.8-.1-1-.4-.5-.6-.6-1.4-.6-3.3v-.8z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4240"/>
+      <path d="M151.6 1057.8c3.6-.5 5-2.1 5-3.4 0-1-1-1.6-1.7-1.9-.7-.4-1.1-.5-1.1-.8 0-.5.7-.8 2.2-.8l-.3-2c-3 .3-4.8 1.8-4.8 3 0 1 .9 1.7 1.6 2.1 1 .5 1.2.7 1.2 1 0 .5-1.3.8-2.4.7l.3 2z" style="line-height:100%;-inkscape-font-specification:'Lithos Pro, Heavy';text-align:center" id="path4242"/>
+    </g>
     <text style="line-height:125%" x="96.5" y="935.2" id="text11295" font-weight="400" font-size="12.5" font-family="sans-serif" letter-spacing="0" word-spacing="0"/>
     <g id="g11676" transform="translate(4 .9)">
       <g transform="translate(99 925.4) scale(.0411)" id="g11465">
